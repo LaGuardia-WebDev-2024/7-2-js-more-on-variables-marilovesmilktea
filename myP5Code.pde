@@ -24,6 +24,21 @@ void draw(){
   ellipse(x - 50, y - 50, 30, 30); // left eyeball
   ellipse(x + 50, y - 50, 30, 30); // right eyeball
   
+  fill(79, 90, 80); //for his pupils!
+  ellipse(x - 47, y - 47, 25, 25)
+  ellipse(x + 47, y - 47, 25, 25)
+  
+  fill(255, 255, 255); // eye shine
+  ellipse(x - 44, y - 53, 10, 10)
+  ellipse(x + 44, y - 53, 10, 10)
+  
+  fill(87, 108, 88); // mouth
+  ellipse(x, 110, 115,60)
+  
+  fill(255, 166, 192); // tongue
+  ellipse(x, y + 20, 89, 30)
+  
+ 
 
 }
 
